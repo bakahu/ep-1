@@ -1,0 +1,49 @@
+{
+    "ClassName": "ScreenGui",
+    "Properties": {
+        "IgnoreGuiInset": true
+    },
+    "Children": [
+        {
+            "Name": "Frame",
+            "ClassName": "Frame",
+            "Properties": {
+                "BackgroundColor3": {
+                    "Type": "Color3",
+                    "Value": [0, 0, 0]
+                },
+                "Position": {
+                    "Type": "UDim2",
+                    "Value": [0, 0, 0, 0]
+                },
+                "Size": {
+                    "Type": "UDim2",
+                    "Value": [1, 0, 1, 0]
+                }
+            },
+            "Children": [
+                {
+                    "Name": "TextLabel",
+                    "ClassName": "TextLabel",
+                    "Properties": {
+                        "BackgroundTransparency": 1,
+                        "Text": "- Loading -",
+                        "TextSize": 30,
+                        "TextColor3": {
+                            "Type": "Color3",
+                            "Value": [1, 1, 1]
+                        },
+                        "Position": {
+                            "Type": "UDim2",
+                            "Value": [0, 0, 0.5, -25]
+                        },
+                        "Size": {
+                            "Type": "UDim2",
+                            "Value": [1, 0, 0, 50]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
